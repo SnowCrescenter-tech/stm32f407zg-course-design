@@ -3,7 +3,7 @@
 ..\obj\rtc.o: ..\FWLIB\inc\stm32f4xx_adc.h
 ..\obj\rtc.o: ..\USER\stm32f4xx.h
 ..\obj\rtc.o: ..\CORE\core_cm4.h
-..\obj\rtc.o: D:\University\engineering software\keil\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\rtc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\rtc.o: ..\CORE\core_cmInstr.h
 ..\obj\rtc.o: ..\CORE\core_cmFunc.h
 ..\obj\rtc.o: ..\CORE\core_cm4_simd.h
@@ -35,11 +35,11 @@
 ..\obj\rtc.o: ..\FWLIB\inc\stm32f4xx_dcmi.h
 ..\obj\rtc.o: ..\FWLIB\inc\stm32f4xx_fsmc.h
 ..\obj\rtc.o: ..\UCOSII\CONFIG\includes.h
-..\obj\rtc.o: D:\University\engineering software\keil\ARM\ARMCC\Bin\..\include\stdio.h
-..\obj\rtc.o: D:\University\engineering software\keil\ARM\ARMCC\Bin\..\include\string.h
-..\obj\rtc.o: D:\University\engineering software\keil\ARM\ARMCC\Bin\..\include\ctype.h
-..\obj\rtc.o: D:\University\engineering software\keil\ARM\ARMCC\Bin\..\include\stdlib.h
-..\obj\rtc.o: D:\University\engineering software\keil\ARM\ARMCC\Bin\..\include\stdarg.h
+..\obj\rtc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\rtc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+..\obj\rtc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
+..\obj\rtc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\rtc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 ..\obj\rtc.o: ..\UCOSII\CORE\ucos_ii.h
 ..\obj\rtc.o: ..\UCOSII\CONFIG\includes.h
 ..\obj\rtc.o: ..\UCOSII\CONFIG\os_cfg.h

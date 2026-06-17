@@ -1,17 +1,17 @@
 ..\obj\os_sem.o: ..\UCOSII\CORE\os_sem.c
 ..\obj\os_sem.o: ..\UCOSII\CORE\ucos_ii.h
 ..\obj\os_sem.o: ..\UCOSII\CONFIG\includes.h
-..\obj\os_sem.o: D:\University\engineering software\keil\ARM\ARMCC\Bin\..\include\stdio.h
-..\obj\os_sem.o: D:\University\engineering software\keil\ARM\ARMCC\Bin\..\include\string.h
-..\obj\os_sem.o: D:\University\engineering software\keil\ARM\ARMCC\Bin\..\include\ctype.h
-..\obj\os_sem.o: D:\University\engineering software\keil\ARM\ARMCC\Bin\..\include\stdlib.h
-..\obj\os_sem.o: D:\University\engineering software\keil\ARM\ARMCC\Bin\..\include\stdarg.h
+..\obj\os_sem.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\os_sem.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+..\obj\os_sem.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
+..\obj\os_sem.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\os_sem.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 ..\obj\os_sem.o: ..\UCOSII\CORE\ucos_ii.h
 ..\obj\os_sem.o: ..\UCOSII\PORT\os_cpu.h
 ..\obj\os_sem.o: ..\UCOSII\CONFIG\os_cfg.h
 ..\obj\os_sem.o: ..\USER\stm32f4xx.h
 ..\obj\os_sem.o: ..\CORE\core_cm4.h
-..\obj\os_sem.o: D:\University\engineering software\keil\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\os_sem.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\os_sem.o: ..\CORE\core_cmInstr.h
 ..\obj\os_sem.o: ..\CORE\core_cmFunc.h
 ..\obj\os_sem.o: ..\CORE\core_cm4_simd.h

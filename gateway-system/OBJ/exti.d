@@ -3,7 +3,7 @@
 ..\obj\exti.o: ..\SYSTEM\sys\sys.h
 ..\obj\exti.o: ..\USER\stm32f4xx.h
 ..\obj\exti.o: ..\CORE\core_cm4.h
-..\obj\exti.o: D:\University\engineering software\keil\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\exti.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\exti.o: ..\CORE\core_cmInstr.h
 ..\obj\exti.o: ..\CORE\core_cmFunc.h
 ..\obj\exti.o: ..\CORE\core_cm4_simd.h
@@ -40,12 +40,12 @@
 ..\obj\exti.o: ..\HARDWARE\LED\led.h
 ..\obj\exti.o: ..\HARDWARE\KEY\key.h
 ..\obj\exti.o: ..\SYSTEM\usart\usart.h
-..\obj\exti.o: D:\University\engineering software\keil\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\exti.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\exti.o: ..\UCOSII\CONFIG\includes.h
-..\obj\exti.o: D:\University\engineering software\keil\ARM\ARMCC\Bin\..\include\string.h
-..\obj\exti.o: D:\University\engineering software\keil\ARM\ARMCC\Bin\..\include\ctype.h
-..\obj\exti.o: D:\University\engineering software\keil\ARM\ARMCC\Bin\..\include\stdlib.h
-..\obj\exti.o: D:\University\engineering software\keil\ARM\ARMCC\Bin\..\include\stdarg.h
+..\obj\exti.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+..\obj\exti.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
+..\obj\exti.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\exti.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 ..\obj\exti.o: ..\UCOSII\CORE\ucos_ii.h
 ..\obj\exti.o: ..\UCOSII\CONFIG\includes.h
 ..\obj\exti.o: ..\UCOSII\CONFIG\os_cfg.h

@@ -24,6 +24,7 @@ void  Adc_Init(void)
     ADC_InitTypeDef       ADC_InitStructure;
 	
     RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOF, ENABLE);//使能GPIOF时钟
+    RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOA, ENABLE);//使能GPIOA时钟
     RCC_APB2PeriphClockCmd(RCC_APB2Periph_ADC1, ENABLE);//使能ADC1时钟
     RCC_APB2PeriphClockCmd(RCC_APB2Periph_ADC3, ENABLE);//使能ADC3时钟
 
@@ -32,6 +33,12 @@ void  Adc_Init(void)
     GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AN;//模拟输入
     GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_NOPULL;//无上下拉
     GPIO_Init(GPIOF, &GPIO_InitStructure);//初始化  
+ 
+    // 初始化 PA5 作为模拟输入
+    GPIO_InitStructure.GPIO_Pin = GPIO_Pin_5;
+    GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AN;//模拟输入
+    GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_NOPULL;//无上下拉
+    GPIO_Init(GPIOA, &GPIO_InitStructure);//初始化  
  
     RCC_APB2PeriphResetCmd(RCC_APB2Periph_ADC1,ENABLE);	//复位ADC1
     RCC_APB2PeriphResetCmd(RCC_APB2Periph_ADC1,DISABLE);	//结束复位
